@@ -2,9 +2,9 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.gulnaznaseer21</groupId>
-    <artifactId>com.example.test.mylibrary</artifactId>
+    <groupId>com.example.test.mylibrary</groupId>
+    <artifactId>mylibrary</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-    <description>First version release</description>
+    <description>First release</description>
 </project>
