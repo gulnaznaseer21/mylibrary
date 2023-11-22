@@ -18,3 +18,9 @@ Add the dependency. Latest Version [![](https://jitpack.io/v/gulnaznaseer21/myli
 	        implementation 'com.github.gulnaznaseer21:mylibrary:1.0'
 	}
 ```
+
+### Step 3
+To display Toast
+```
+     ToastClass.simpleToast(this,"Welcome to library world")
+```
