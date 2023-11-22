@@ -8,13 +8,7 @@
 
 Add maven repository in project level build.gradle or in latest project setting.gradle file
 ```
-	dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://jitpack.io' }
-		}
-	}
+		maven { url 'https://jitpack.io' }
 ```
 ### Step 2
 
