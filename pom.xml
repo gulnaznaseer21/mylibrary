@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>com.example.test.mylibrary</groupId>
-    <artifactId>mylibrary</artifactId>
-    <version>1.0</version>
-    <packaging>pom</packaging>
-    <description>First release</description>
-</project>
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-install-plugin</artifactId>
+    <version>2.4</version>
+    <executions>
+        <execution>
+            <id>install-file</id>
+            <phase>install</phase>
+            <goals>
+                <goal>install-file</goal>
+            </goals>
+            <configuration>
+                <file>F:/Gulnaz/UnderWorking/myLibrary/mylibrary_debug.aar</file>
+                <!-- Other configuration options -->
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
